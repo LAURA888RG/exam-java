@@ -54,12 +54,16 @@ Nombres: mammals            feeding           Verbos: assign/asignar       valor
          space                                                                      iguanas
 
 Package: ZOO
-Class Abstract: Animals      Subclass: Mammals     Interfaz: 
-                                       Birds
-                                       Reptiles
+Class Abstract: Animals      Subclass: Mammals     Class: Habitat 
+                                       Birds              Zoo
+                                       Reptiles           Veterinary
                                        Aquatics
 
-enums: Typeanimal
-       Habitattype
+enums: Typeanimal = Mammals, birds, reptiles, aquatics    
+
+
+       Habitattype= terrarium, aquatic, terrestrial
+
+
        Conduct
 
