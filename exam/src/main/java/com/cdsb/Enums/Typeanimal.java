@@ -1,4 +1,4 @@
-package com.cdsb;
+package com.cdsb.Enums;
 
 public enum Typeanimal {
 

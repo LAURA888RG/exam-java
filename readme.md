@@ -52,17 +52,19 @@ Nombres: mammals            feeding           Verbos: assign/asignar       valor
          aquatics                                     remove/eliminar               toucans/tucanes
          animals                                                                    snakes/serpientes
          space                                                                      iguanas
+         
+                                                                 
 
 Package: ZOO
-Class Abstract: Animals      Subclass: Mammals     Class: Habitat     Interfaz: Icompatibility
-                                       Birds              Zoo                   Inutrition                                             
-                                       Reptiles                                 Iveterinarycare
-                                       Aquatics
+Class Abstract: Animals      
 
+Class animals: Lions, dolphins, elephants, iguanas, parrots, seals, snakes, toucans   zebras.                                                              
+                                    
 enums: Typeanimal = Mammals, birds, reptiles, aquatics    
 
-
        Habitattype= terrarium, aquatic, terrestrial
+
+
 
 
        
