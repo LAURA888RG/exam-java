@@ -10,5 +10,11 @@ public class Snake extends Animal {
         super(name,"Snake","Carnivorous",1,200,false,true,HabitatType.TERRARIUM, TypeAnimal.REPTILES);   
 
     }
+     @Override
+    public boolean isCompatible(Animal other)
+    {
+        return false;
+    }
 
 }
+

@@ -10,7 +10,6 @@ public abstract class Animal {
     protected String specie;
     protected String diet;
     protected int spaceNeeded;
-    protected int feedingfrequency;
     protected boolean social;
     protected boolean predator;
     protected HabitatType habitatType;
@@ -57,5 +56,15 @@ public abstract class Animal {
         return typeAnimal;
 
 }
+ @Override
+    public boolean isCompatibleWith(IAnimals animals) {
+        // TODO Auto-generated method stub
+        return false;
+    }
+
+    @Override
+    public boolean needVeterinaryCare() {
+        return needVeterinaryCare;
+    }
 
 }

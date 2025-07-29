@@ -10,5 +10,10 @@ public class Lion extends Animal {
         super(name,"Lion","Carnivorous",1,600,true,true,HabitatType.TERRESTRIAL, TypeAnimal.MAMMALS);   
 
     }
+    @Override
+    public boolean isCompatible(Animal other)
+    {
+        return false;
+    }
 
 }
