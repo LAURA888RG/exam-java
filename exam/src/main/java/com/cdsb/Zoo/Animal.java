@@ -1,31 +1,61 @@
 package com.cdsb.Zoo;
+
+import com.cdsb.Enums.HabitatType;
+import com.cdsb.Enums.TypeAnimal;
+import com.cdsb.Enums.Typeanimal;
+
 public abstract class Animal {
 
     protected String name;
     protected String specie;
     protected String diet;
-    protected int space needed;
-    protected int feeding frequency;
+    protected int spaceNeeded;
+    protected int feedingfrequency;
     protected boolean social;
     protected boolean predator;
-    protected Habitattype habitattype;
-    protected Typeanimal typeanimal;
+    protected HabitatType habitatType;
+    protected TypeAnimal typeAnimal;
 
-    public animal (String name, String specie, int space needed, int feeding frequency, boolean social, boolean predator, Habitattype habitattype, Typeanimal typeanimal){
+    public Animal (String name, String specie, int spaceNeeded, int feedingFrequency, boolean social, boolean predator, HabitatType habitatType, TypeAnimal typeAnimal){
         this.name = name;
         this.specie = specie;
         this.diet = diet;
-        this.spaceneeded = spaceneeded;
-        this.feedingfrequency = feedingfrequency;
+        this.spaceNeeded = spaceNeeded;
+        this.feedingFrequency = feedingFrequency;
         this.social = social;
         this.predator = predator;
-        this.habitattype = habitattype;
-        this.typeanimal = typeanimal;
+        this.habitatType = habitatType;
+        this.typeAnimal = typeAnimal;
 
     }
 
-    public boolean 
+    public String getName() {
+        return name;
+    }
+    public String getSpecie() {
+        return specie;
+    }
+    public String getDiet(){
+        return diet;
+    }
+    public int getSpaceNeeded(){
+        return spaceNeeded;
+    }
+    public int getFeedingFrequency(){
+        return feedingFrequency;
+    }
+    public boolean isSocial(){
+        return social; 
+    }
+    public boolean isPredator(){
+        return predator;
+    }
+    public HabitatType getHabitatType(){
+        return habitatType;
+    }
+    public TypeAnimal getTypeAnimal(){
+        return typeAnimal;
 
-    
+}
 
 }

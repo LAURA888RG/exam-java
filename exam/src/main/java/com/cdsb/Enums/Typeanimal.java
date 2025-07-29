@@ -1,6 +1,6 @@
 package com.cdsb.Enums;
 
-public enum Typeanimal {
+public enum TypeAnimal {
 
     MAMMALS, BIRDS, REPTILES, AQUATICS
 }

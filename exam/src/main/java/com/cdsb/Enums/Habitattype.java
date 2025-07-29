@@ -1,6 +1,6 @@
 package com.cdsb.Enums;
 
-public enum Habitattype {
+public enum HabitatType {
 
     TERRESTRIAL, TERRARIUM, AQUATIC 
 
