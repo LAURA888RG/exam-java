@@ -4,7 +4,7 @@ package com.cdsb;
  * Hello world!
  *
  */
-public class App 
+public class AppAnimal 
 {
     public static void main( String[] args )
     {
