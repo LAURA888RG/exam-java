@@ -22,6 +22,7 @@ mamíferos (mamíferos) (como leones (leones), elefantes (elefantes) o cebras (z
 aves (pájaros) (loros (loros), tucanes (tucanes))
 reptiles (reptiles) (serpientes (serpientes), iguanas (iguanas))
 animales acuáticos (animales acuáticos) (delfines (delfines), focas (focas))
+
 Algunos animales (animals) pueden convivir en grupos, y otros deben mantenerse solos.
 
 Cada especie tiene sus propios requisitos.
@@ -52,5 +53,13 @@ Nombres: mammals            feeding           Verbos: assign/asignar       valor
          animals                                                                    snakes/serpientes
          space                                                                      iguanas
 
+Package: ZOO
+Class Abstract: Animals      Subclass: Mammals     Interfaz: 
+                                       Birds
+                                       Reptiles
+                                       Aquatics
 
+enums: Typeanimal
+       Habitattype
+       Conduct
 
