@@ -1,30 +1,35 @@
 package com.cdsb;
 
-import com.cdsb.Animals.Animal;
-import com.cdsb.Animals.Cebra;
-import com.cdsb.Animals.Dolphin;
-import com.cdsb.Animals.Elephant;
-import com.cdsb.Animals.Iguana;
-import com.cdsb.Animals.Lion;
-import com.cdsb.Animals.Parrot;
-import com.cdsb.Animals.Seal;
-import com.cdsb.Animals.Snake;
-import com.cdsb.Animals.Toucan;
-import com.cdsb.Zoo.Zoo;
+import com.cdsb.animals.Animal;
+import com.cdsb.animals.Cebra;
+import com.cdsb.animals.Dolphin;
+import com.cdsb.animals.Elephant;
+import com.cdsb.animals.Iguana;
+import com.cdsb.animals.Lion;
+import com.cdsb.animals.Parrot;
+import com.cdsb.animals.Seal;
+import com.cdsb.animals.Snake;
+import com.cdsb.animals.Toucan;
+import com.cdsb.enums.HabitatType;
+import com.cdsb.habitat.Aquatic;
 import com.cdsb.habitat.Habitat;
+import com.cdsb.habitat.Terrarium;
+import com.cdsb.habitat.Terrestrial;
+import com.cdsb.zoo.Zoo;
 
 public class Main {
 
+ 
     public static void main(String[] args) {
 
         // create zoo
-        Zoo zoo = new zoo();
+        Zoo zoo = new Zoo();
 
         // create habitats
 
-        Habitat terrestrial = new Habitat(HabitatType.TERRESTRIAL);
-        Habitat aquatic = new Habitat(HabitatType.AQUATIC);
-        Habitat terrarium = new Habitat(HabitatType.TERRARIUM);
+        Habitat terrestrial = new Terrestrial();
+        Habitat aquatic = new Aquatic();
+        Habitat terrarium = new Terrarium();
 
         // add habitats zoo
         zoo.addHabitat(terrestrial);
