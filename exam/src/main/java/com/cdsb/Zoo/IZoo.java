@@ -1,6 +1,7 @@
-package com.cdsb;
+package com.cdsb.Zoo;
 
-import com.cdsb.Zoo.HabitatImp;
+import com.cdsb.Animals.Animal;
+import com.cdsb.Zoo.Zoo.HabitatImp;
 
 public interface IZoo {
     void addHabitat(HabitatImp habitat);

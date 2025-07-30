@@ -1,9 +1,8 @@
-package com.cdsb;
+package com.cdsb.Animals;
 
 import com.cdsb.Enums.DietType;
 import com.cdsb.Enums.HabitatType;
 import com.cdsb.Enums.TypeAnimal;
-import com.cdsb.Zoo.Animal;
 
 public interface IAnimal {
 
