@@ -1,4 +1,4 @@
-package com.cdsb.Enums;
+package com.cdsb.enums;
 
 public enum HabitatType {
 

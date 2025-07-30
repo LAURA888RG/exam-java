@@ -1,8 +1,8 @@
-package com.cdsb.Animals;
+package com.cdsb.animals;
 
-import com.cdsb.Enums.DietType;
-import com.cdsb.Enums.HabitatType;
-import com.cdsb.Enums.TypeAnimal;
+import com.cdsb.enums.DietType;
+import com.cdsb.enums.HabitatType;
+import com.cdsb.enums.TypeAnimal;
 
 public interface IAnimal {
 
@@ -11,8 +11,8 @@ public interface IAnimal {
     TypeAnimal getTypeAnimal();
     HabitatType getHabitat();
     DietType getDiet();
-    boolean isSocial();
-    double getSpaceNeeded();
+    //boolean isSocial();
+    //double getSpaceNeeded();
     boolean isCompatibleWith(Animal other);
 
 }

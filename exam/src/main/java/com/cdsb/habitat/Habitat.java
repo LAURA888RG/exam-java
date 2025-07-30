@@ -2,14 +2,13 @@ package com.cdsb.habitat;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.cdsb.Animals.Animal;
-import com.cdsb.Enums.HabitatType;
+import com.cdsb.animals.Animal;
+import com.cdsb.enums.HabitatType;
 
 public abstract class Habitat implements IHabitat {
 
     protected HabitatType habitatType;
-    protected int totalSpace;
+    protected double totalSpace;
     protected List<Animal> animals;
 
     public Habitat(HabitatType habitatType, double totalSpace) {
@@ -34,10 +33,15 @@ public abstract class Habitat implements IHabitat {
         return animals;
     }
 
-    @Override
 
-    
     public abstract boolean isHabitatCompatible(Animal animal);
- 
+
+    public boolean addAnimal(Animal animal){
+        if(isHabitatCompatible(animal)) {
+            animals.add(animal);
+            return true;
+        }
+          return false;
+}
 
 }

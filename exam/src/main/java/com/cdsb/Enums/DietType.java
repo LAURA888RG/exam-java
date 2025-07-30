@@ -1,7 +1,7 @@
-package com.cdsb.Enums;
+package com.cdsb.enums;
 
 public enum DietType {
 
-    CARNIVOROUS, HERVIBOROUS, OMNIVOROUS
+    CARNIVOROUS, HERBIVOROUS, OMNIVOROUS
     
 }

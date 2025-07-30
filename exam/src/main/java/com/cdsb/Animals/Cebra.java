@@ -1,14 +1,17 @@
-package com.cdsb.Animals;
+package com.cdsb.animals;
 
-import com.cdsb.Enums.HabitatType;
-import com.cdsb.Enums.TypeAnimal;
-import com.cdsb.Enums.DietType;
+import com.cdsb.enums.DietType;
+import com.cdsb.enums.HabitatType;
+import com.cdsb.enums.TypeAnimal;
 
 public class Cebra extends Animal {
+
     public Cebra (String name){
         
-        super(name,"Cebra", DietType.HERVIBOROUS, HabitatType.TERRESTRIAL, TypeAnimal.BIRDS);   
+        super(name,"Cebra", DietType.HERBIVOROUS,HabitatType.TERRESTRIAL, TypeAnimal.MAMMALS);   
 
     }
+
+   
 
 }

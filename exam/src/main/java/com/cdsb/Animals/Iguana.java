@@ -1,19 +1,13 @@
-package com.cdsb.Animals;
+package com.cdsb.animals;
 
-import com.cdsb.Enums.DietType;
-import com.cdsb.Enums.HabitatType;
-import com.cdsb.Enums.TypeAnimal;
+import com.cdsb.enums.DietType;
+import com.cdsb.enums.HabitatType;
+import com.cdsb.enums.TypeAnimal;
 
 public class Iguana extends Animal {
     public Iguana (String name){
         
-        super(name,"Iguana",DietType.HERVIBOROUS,HabitatType.TERRARIUM, TypeAnimal.REPTILES);   
-    }
-
-    @Override
-     public boolean isCompatible(Animal other)
-    {
-        return false;
+        super(name,"Iguana",DietType.HERBIVOROUS,HabitatType.TERRARIUM, TypeAnimal.REPTILES);   
     }
 
 }
